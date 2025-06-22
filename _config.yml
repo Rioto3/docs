@@ -1,0 +1,22 @@
+# Jekyll設定（最小構成）
+title: "Documents"
+description: "Single-page document distribution"
+
+# GitHub Pages用設定
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+# Markdown設定
+relative_links:
+  enabled: true
+  collections: false
+
+# フロントマター省略許可
+optional_front_matter:
+  enabled: true
+
+# 除外ファイル
+exclude:
+  - README.md
+  - .gitignore
