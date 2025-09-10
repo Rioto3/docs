@@ -1,5 +1,12 @@
-# quic-wcut
+---
+layout: default
+---
 
-- [grass-cutting-considerations](grass-cutting-considerations)
-- [accounting-sample1-each-task-and-indirect-costs](accounting-sample1-each-task-and-indirect-costs)
-- [accounting-sample2-monthly](accounting-sample2-monthly)
+# {{ page.dir | remove: '/' | split: '/' | last }}
+
+{% assign current_dir = page.dir %}
+{% assign files = site.static_files | where_exp: "file", "file.path contains current_dir and file.extname == '.md' and file.name != 'index.md'" %}
+
+{% for file in files %}
+- [{{ file.basename }}]({{ file.basename }})
+{% endfor %}
