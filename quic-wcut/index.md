@@ -1,6 +1,5 @@
 # quic-wcut
 
 - [grass-cutting-considerations](grass-cutting-considerations)
-- [会計イメージ1](会計イメージ1)
-- [会計サンプル1-案件毎+間接費](会計サンプル1-案件毎+間接費)
-- [会計サンプル2-月次会計表](会計サンプル2-月次会計表)
+- [accounting-sample1-each-task-and-indirect-costs](accounting-sample1-each-task-and-indirect-costs)
+- [accounting-sample2-monthly](accounting-sample2-monthly)
