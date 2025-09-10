@@ -16,6 +16,13 @@ relative_links:
 optional_front_matter:
   enabled: true
 
+# 日本語URL対応
+encoding: utf-8
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # 除外ファイル
 exclude:
   - README.md
